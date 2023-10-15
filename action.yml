@@ -16,5 +16,5 @@ inputs:
     default: 'rbxts'
     required: false
 runs:
-  using: 'node18'
+  using: 'node12'
   main: 'dist/index.js'
