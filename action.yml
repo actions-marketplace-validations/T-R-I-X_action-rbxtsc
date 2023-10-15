@@ -1,6 +1,6 @@
-name: 'Typescript compiler'
-description: 'Compile your Typescript code and check for errors.'
-author: 'iCrawl'
+name: 'Roblox-TS compiler'
+description: 'Compile your rbxts code and check for errors.'
+author: 'T-R_I-X'
 branding:
   icon: alert-circle
   color: blue
@@ -12,9 +12,9 @@ inputs:
     description: 'Optional build reference path.'
     required: false
   executable:
-    description: 'Compilation Executable (tsc or ttsc)'
-    default: 'tsc'
+    description: 'Compilation Executable'
+    default: 'rbxts'
     required: false
 runs:
-  using: 'node12'
+  using: 'node18'
   main: 'dist/index.js'
