@@ -13,7 +13,7 @@ inputs:
     required: false
   executable:
     description: 'Compilation Executable'
-    default: 'rbxts'
+    default: 'rbxtsc'
     required: false
 runs:
   using: 'node12'
