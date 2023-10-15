@@ -2,7 +2,7 @@
 	"name": "action-tsc",
 	"version": "1.0.0",
 	"description": "Typescript compiler action",
-	"main": "dist/index.js",
+	"main": "dist/main.js",
 	"author": "iCrawl <icrawltogo@gmail.com>",
 	"license": "MIT",
 	"private": true,
